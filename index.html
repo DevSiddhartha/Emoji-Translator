@@ -4,34 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emoji Translator</title>
+    <title>Klingon Translator</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <nav>
         <div style="font-size: 3rem;">
-            Emoji Translator 😎
+            Klingon Translator 👽
         </div>
     </nav>
 
     <main>
-        <textarea
-            placeholder="Please type in your text here so that our Emoji Translator can do the magic and convert it to Emoji !"></textarea>
-        <button>Translate to Emoji</button>
+        <textarea id="translate-input"
+            placeholder="Please type in your text here so that our Klingon Translator can do the magic and convert it to Klingon !"></textarea>
+        <button id="btn-translate">Translate to Klingon</button>
         <div style="font-family: 'Kalam', cursive; margin-top: 1rem; font-size: 1.1rem;">Translation will come here 👇
         </div>
-        <div class="output"></div>
+        <div style="font-family: 'Kalam', cursive;" id="translate-output" class="output"></div>
     </main>
 
     <footer>
         <div style="font-size: x-large;">About</div>
-        <p>Are you a fan of emojis? Did you know that the emoji language is the world’s fastest growing language. Use
-            this translator to convert your text in English to text filled with relevant emojis !</p>
+        <p>Are you a fan of Star Wars? The Klingon language is the constructed language spoken by the Klingons in the Star Trek Universe. Use
+            this translator to convert your text in English language to Klingon. </p>
     </footer>
 
-
-
+<script src="app.js" type="text/javascript"></script>
 </body>
 
 </html>
